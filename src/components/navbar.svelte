@@ -2,9 +2,9 @@
     <figure class="font-medium">Chandresh patidar</figure>
 
     <ul class="flex gap-6">
-        <a href="/project"><li class="font-semibold text-gray-600 hover:text-black ">Projects</li></a>
-        <a href="/project"><li class="font-semibold text-gray-600 hover:text-black">Open Source</li></a>
-        <a href="/project"><li class="font-semibold text-gray-600 hover:text-black">Blogs</li></a>
+        <a href="/coming-soon"><li class="font-semibold text-gray-600 hover:text-black ">Projects</li></a>
+        <a href="/coming-soon"><li class="font-semibold text-gray-600 hover:text-black">Open Source</li></a>
+        <a href="/coming-soon"><li class="font-semibold text-gray-600 hover:text-black">Blogs</li></a>
     </ul>
     <button class="text-lg font-medium border-b text-black tracking-tight">
         chandresh.dev@gmail.com
