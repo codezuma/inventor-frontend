@@ -8,8 +8,9 @@
 </svelte:head>
 
 <section class='mx-auto min-h-screen pt-40 py-8 relative container-main'>
-
-	<h1 class="text-[6rem] uppercase  mb-5 text-black font-bold tracking-tight leading-[1.1em]  flex justify-between ">
+    
+	<h1 class="text-[6rem]  mb-5 text-black font-semibold tracking-tight leading-[1.1em]  flex justify-between ">
+		<img class="w-12 h-12" src="assets/four-star.svg" alt="star-blue">
 		Chandresh patidar <br/>
 		Fullstack developer
 	</h1>

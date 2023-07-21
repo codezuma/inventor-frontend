@@ -1,8 +1,8 @@
-<nav class="w-full container flex justify-between left-1/2 -translate-x-1/2 mx-auto fixed py-8 px-12">
-    <figure>Chandresh</figure>
+<nav class="w-full container flex justify-between left-1/2 z-10 -translate-x-1/2 mx-auto fixed py-8 px-12">
+    <figure class="font-medium">Chandresh patidar</figure>
 
     <ul class="flex gap-6">
-        <a href="/project"><li class="font-semibold text-gray-600 hover:text-black">Projects</li></a>
+        <a href="/project"><li class="font-semibold text-gray-600 hover:text-black ">Projects</li></a>
         <a href="/project"><li class="font-semibold text-gray-600 hover:text-black">Open Source</li></a>
         <a href="/project"><li class="font-semibold text-gray-600 hover:text-black">Blogs</li></a>
     </ul>
