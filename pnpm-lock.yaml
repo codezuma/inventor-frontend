@@ -53,12 +53,12 @@ devDependencies:
   svelte-check:
     specifier: ^3.4.3
     version: 3.4.6(postcss@8.4.26)(svelte@4.0.5)
+  svelte-reveal:
+    specifier: ^0.7.0
+    version: 0.7.0
   tailwindcss:
     specifier: ^3.3.3
     version: 3.3.3
-  tailwindcss-intersect:
-    specifier: ^1.0.5
-    version: 1.0.5(tailwindcss@3.3.3)
   tslib:
     specifier: ^2.4.1
     version: 2.6.0
@@ -2242,6 +2242,10 @@ packages:
       typescript: 5.1.6
     dev: true
 
+  /svelte-reveal@0.7.0:
+    resolution: {integrity: sha512-cmdYWpULQXtbEuzxxObR2IRbyKef51KlqidkLswj1F3FzeoYr9WHvL2setvvkH3MpD0BfFngvWWAXNPj/PDXXA==}
+    dev: true
+
   /svelte@4.0.5:
     resolution: {integrity: sha512-PHKPWP1wiWHBtsE57nCb8xiWB3Ht7/3Kvi3jac0XIxUM2rep8alO7YoAtgWeGD7++tFy46krilOrPW0mG3Dx+A==}
     engines: {node: '>=16'}
@@ -2259,14 +2263,6 @@ packages:
       locate-character: 3.0.0
       magic-string: 0.30.1
       periscopic: 3.1.0
-    dev: true
-
-  /tailwindcss-intersect@1.0.5(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-2Ac6TEKg/sJ3RXi0DKR80ZCwk+NHtkoKyWVQN6wDe4xD5rwn1lZsKKxdq2sMFOUAOFoMjCLA7ADUyQPLRtHzQg==}
-    peerDependencies:
-      tailwindcss: '>=3.0.0'
-    dependencies:
-      tailwindcss: 3.3.3
     dev: true
 
   /tailwindcss@3.3.3:
