@@ -3,7 +3,7 @@
 </script>
 
 <nav
-  class="w-full container flex justify-between left-1/2 z-10 -translate-x-1/2 mx-auto fixed py-8 px-12"
+  class="w-full container flex justify-between left-1/2 z-10 -translate-x-1/2 mx-auto fixed py-8 md:px-32"
 >
   <a href="/">
     <figure class="font-medium">Chandresh patidar</figure>

@@ -1,28 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@import '@fontsource/fira-mono';
+@import url('non.geist');
+@import url('../styles/layout.css');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-	--font-body: 'General sans', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
-	--font-mono: 'Fira Mono', monospace;
-	--color-bg-0: rgb(202, 216, 228);
-	--color-bg-1: hsl(209, 36%, 86%);
-	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #ff3e00;
-	--color-theme-2: #4075a6;
-	--column-width: 42rem;
-	--column-margin-top: 4rem;
-	font-family: var(--font-body);
-	color: var(--color-text);
+  --font-family: 'Geist Variable', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'Geist Mono Variable', monospace;
+  --select-color: hsl(171.8, 95.7%, 18%);
+  --font-h1: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
+  --font-h2: clamp(1.5rem, 1.0982rem + 1.7143vw, 2.8125rem);
+  --font-h3: clamp(1.375rem, 1.1837rem + .8163vw, 2rem);
+  --font-h4: clamp(1.375rem, 1.1837rem + .8163vw, 1.6rem);
+  --font-h5: clamp(1rem, .9235rem + .3265vw, 1.25rem);
+  --font-h6: clamp(1rem, .9617rem + .1633vw, 1.125rem);
+  --font-body: clamp(1rem, .8852rem + .4898vw, 1.375rem);
+  --font-link: clamp(.875rem, .7985rem + .3265vw, 1.125rem);
+  --font-mini: clamp(.875rem, .8367rem + .1633vw, 1rem);
+  --font-h2-display: clamp(1.875rem, 1.301rem + 2.449vw, 3.95rem);
+  font-family: var(--font-family);
+  color: var(--color-text);
+}
+h1{
+  @apply xl:text-[6rem] md:text-7xl text-4xl  ;
 }
 
-@layer utilities{
-	.container-main{
-		@apply px-[calc(100%/12)] container;
-	}
+::-moz-selection {
+  /* Code for Firefox */
+  @apply dark:bg-select-color  text-white;
 }
-.center-x-position{
-	@apply -translate-x-1/2 -left-1/2;
+
+::selection {  
+	@apply bg-select-color text-white;
+}
+
+@layer utilities {
+  .container-main {
+    @apply xl:px-[calc(100%/12)] md:px-16 sm:px-6 px-4;
+  }
+}
+.center-x-position {
+  @apply -translate-x-1/2 -left-1/2;
 }
