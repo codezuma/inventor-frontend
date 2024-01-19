@@ -1,26 +1,29 @@
 <script>
   import { reveal, setDefaultOptions } from 'svelte-reveal';
+    import Logo from './common/logo.svelte';
+    import Button from './ui/button.svelte';
 </script>
 
-<nav
-  class="w-full container flex justify-between left-1/2 z-10 -translate-x-1/2 mx-auto fixed py-8 md:px-32"
->
+<nav class="w-full flex justify-between items-center left-1/2 z-50 -translate-x-1/2 fixed py-8 container-main">
   <a href="/">
-    <figure class="font-medium">Chandresh patidar</figure>
+    <Logo className="md:w-40 w-32"/>
   </a>
 
-  <ul class="flex gap-6">
+  <ul class="md:flex hidden gap-6">
     <a href="/coming-soon">
-      <li class="font-semibold text-gray-600 hover:text-black">Projects</li>
+      <li class="font-semibold text-gray-400 hover:text-white">Projects</li>
     </a>
     <a href="/coming-soon">
-      <li class="font-semibold text-gray-600 hover:text-black">Open Source</li>
+      <li class="font-semibold text-gray-400 hover:text-white">Open Source</li>
     </a>
     <a href="/coming-soon">
-      <li class="font-semibold text-gray-600 hover:text-black">Blogs</li>
+      <li class="font-semibold text-gray-400 hover:text-white">Blogs</li>
     </a>
   </ul>
-  <button class="text-lg font-medium border-b text-black tracking-tight">
+  <button class="text-lg md:block hidden font-medium text-roaring-green-shade2  tracking-tight">
     chandresh.dev@gmail.com
   </button>
+  <Button>
+
+  </Button>
 </nav>

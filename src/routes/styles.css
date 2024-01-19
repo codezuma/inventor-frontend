@@ -4,26 +4,67 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
   --font-family: 'Geist Variable', -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
   --font-mono: 'Geist Mono Variable', monospace;
-  --select-color: hsl(171.8, 95.7%, 18%);
-  --font-h1: clamp(3.2rem, .5692rem + 8.238vw, 13.75rem);
-  --font-h2: clamp(1.5rem, 1.0982rem + 1.7143vw, 2.8125rem);
-  --font-h3: clamp(1.375rem, 1.1837rem + .8163vw, 2rem);
-  --font-h4: clamp(1.375rem, 1.1837rem + .8163vw, 1.6rem);
-  --font-h5: clamp(1rem, .9235rem + .3265vw, 1.25rem);
-  --font-h6: clamp(1rem, .9617rem + .1633vw, 1.125rem);
-  --font-body: clamp(1rem, .8852rem + .4898vw, 1.375rem);
-  --font-link: clamp(.875rem, .7985rem + .3265vw, 1.125rem);
-  --font-mini: clamp(.875rem, .8367rem + .1633vw, 1rem);
-  --font-h2-display: clamp(1.875rem, 1.301rem + 2.449vw, 3.95rem);
+
+  /* Roaring Green */
+  --roaring-green: hsl(126, 48%, 76%);
+  --roaring-green-shade-1: hsl(144, 27%, 66%);
+  --roaring-green-shade-2: hsl(140, 33%, 84%);
+
+  /* Storm Colors */
+  --storm-color: hsl(212, 14%, 7%);
+  --storm-shade-1: hsl(0, 0%, 0%);
+  --storm-shade-2: hsl(197, 28%, 26%);
+
+  /* Yellow Burst */
+  --yellow: hsl(50, 69%, 52%);
+  --yellow-shade-1: hsl(44, 87%, 41%);
+  --yellow-shade-2: hsl(47, 84%, 76%);
+
+  /* neutral */
+  --neutral: hsl(200, 23%, 8%);
+  --neutral-shade-1: hsl(163, 80%, 27%);
+  --neutral-shade-2: hsl(168, 35%, 47%);
+
+  /* Bolt Brand */
+  --bolt: hsl(8, 82%, 58%);
+  --bolt-shade-1: hsl(7, 86%, 42%);
+  --bolt-shade-2: hsl(3, 94%, 80%);
+
+  /* Additional Neutral Colors */
+  --neutral-light: hsl(200, 22%, 29%);
+  --neutral-shade-1: hsl(206, 20%, 69%);
+  --neutral-shade-2: hsl(206, 33%, 92%);
+
+  --bg-green-light: #e7f6ea;
+  --black: black;
+  --bg-green: #0f1518;
+  --white: white;
+  --dark-slate-grey: #135545;
+  --primary-color-light: #d0edd6;
+  --primary-green-dark: #283b43;
+  --primary-color-green: #abe5b1;
+  --text-color-1: #adbbc1;
+  --primary-color-dark: #90c0a6;
+  --dark-green: #1a2327;
+  --dark-sea-green: #78a17c;
+  --light-grey: #f4f4f4;
+  --text-green: #4e905a;
+  --neutral-2: #e7edf0;
+  --light-slate-grey: #86969d;
+
+  --select-color: var(--neutral);
   font-family: var(--font-family);
-  color: var(--color-text);
+  color: var(--storm-color);
 }
-h1{
-  @apply xl:text-[6rem] md:text-7xl text-4xl  ;
+
+* {
+  box-sizing: border-box;
+}
+h1 {
+  @apply xl:text-[6rem] md:text-7xl text-4xl;
 }
 
 ::-moz-selection {
@@ -31,8 +72,8 @@ h1{
   @apply dark:bg-select-color  text-white;
 }
 
-::selection {  
-	@apply bg-select-color text-white;
+::selection {
+  @apply bg-select-color text-white;
 }
 
 @layer utilities {

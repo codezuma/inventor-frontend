@@ -16,7 +16,6 @@ export function getMobileSize(screenWidth: number): MobileSize {
   const smallBreakpoint = 600;
   const mediumBreakpoint = 900;
 
-  console.log(screenWidth);
   // Determine the mobile size based on = screen width
   if (screenWidth < smallBreakpoint) {
     return MobileSize.SMALL;
