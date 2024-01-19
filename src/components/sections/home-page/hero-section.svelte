@@ -1,8 +1,7 @@
 <script lang="ts">
-  import image from '$lib/images/four-star.svg';
-  import badge from '$lib/images/development-badge.svg';
   import Button from '../../ui/button.svelte';
-    import PatternBlock from '../../common/blocks/pattern-block.svelte';
+  import PatternBlock from '../../common/blocks/pattern-block.svelte';
+
 </script>
 
 <section class="mx-auto min-h-screen z-0 pt-40 py-8 relative container-main">
@@ -31,5 +30,5 @@
     I'm passionate about crafting experiences that are engaging, accessible, and user-centric.
   </p>
   <Button>hello@chandresh.me</Button>
-  <PatternBlock className="absolute w-[25vw] bottom-0 md:block hidden right-0"/>
+  <PatternBlock className="absolute w-[25vw] bottom-0 md:block hidden right-0" />
 </section>

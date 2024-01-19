@@ -4,7 +4,7 @@
 </script>
 
 <svg
-  class={cn('w-40', className)}
+  class={cn('w-40 -ml-4', className)}
   viewBox="0 0 138 52"
   fill="none"
   xmlns="http://www.w3.org/2000/svg"
