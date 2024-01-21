@@ -60,6 +60,9 @@
   color: var(--storm-color);
 }
 
+.container-main{
+  @apply max-w-[1536px] mx-auto;
+}
 * {
   box-sizing: border-box;
 }

@@ -1,6 +1,6 @@
 <script>
   import Logo from './common/logo.svelte';
-  import Button from './ui/button.svelte';
+    import { Button } from '$components/ui/button/index';
 </script>
 
 <nav
@@ -24,5 +24,5 @@
   <button class="text-lg md:block hidden font-medium text-roaring-green-shade2 tracking-tight">
     chandresh.dev@gmail.com
   </button>
-  <Button ></Button>
+  <Button></Button>
 </nav>

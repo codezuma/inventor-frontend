@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Button from '../../ui/button.svelte';
+    import { Button } from '$components/ui/button';
   import PatternBlock from '../../common/blocks/pattern-block.svelte';
 
 </script>
@@ -29,6 +29,7 @@
   >
     I'm passionate about crafting experiences that are engaging, accessible, and user-centric.
   </p>
-  <Button>hello@chandresh.me</Button>
-  <PatternBlock className="absolute w-[25vw] bottom-0 md:block hidden right-0" />
+  <Button size="xl">Get in touch</Button>
+<!--   <Button>hello@chandresh.me</Button>
+ -->  <PatternBlock className="absolute w-[25vw] bottom-0 md:block hidden right-0" />
 </section>
