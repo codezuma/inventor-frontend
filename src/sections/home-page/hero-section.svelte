@@ -1,12 +1,9 @@
 <div class="max-w-2xl">
     <h1 class="font-medium text-3xl mb-4 tracking-tighter">
-        Software designer, founder, and amateur astronaut.
-    </h1>
+      hey, I'm Chandresh patidar,
+Fullstack developer 👋 </h1>
     <p class="prose prose-neutral dark:prose-invert">
-        I’m Spencer, a software designer and entrepreneur based in New York
-      City. I’m the founder and CEO of Planetaria, where we develop
-      technologies that empower regular people to explore space on their
-      own terms.
+      Welcome to my site where I share what I'm learning about shipping great products, becoming a better developer and growing a career in tech.
     </p>
   <!--   <div class="mt-6 flex gap-6">
       <SocialLink
