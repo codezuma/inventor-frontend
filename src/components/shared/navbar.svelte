@@ -1,6 +1,4 @@
 <script>
-    import Logo from "$components/ui/logo.svelte";
-
   const navItems = {
     '/': {
       name: 'home'
@@ -17,10 +15,10 @@
   };
 </script>
 
-<aside class=" mb-16  container-main tracking-tight">
+<aside class=" mb-16 container-main tracking-tight">
   <div class="lg:sticky lg:top-20">
     <nav
-      class="flex flex-row items-center -ml-2  relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
+      class="flex flex-row items-center -ml-2 relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
       id="nav"
     >
       <div class="flex flex-row space-x-0 pr-10">

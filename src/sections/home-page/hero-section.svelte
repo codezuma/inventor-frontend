@@ -1,10 +1,11 @@
 <div class="max-w-2xl">
-    <h1 class="font-medium text-3xl mb-4 tracking-tighter">
-      hey, I'm Chandresh patidar,
-Fullstack developer 👋 </h1>
-    <p class="prose prose-neutral dark:prose-invert">
-      Welcome to my site where I share what I'm learning about shipping great products, becoming a better developer and growing a career in tech.
-    </p>
+  <h1 class="font-medium text-3xl mb-4 tracking-tighter">
+    hey, I'm Chandresh patidar, Fullstack developer 👋
+  </h1>
+  <p class="prose prose-neutral dark:prose-invert">
+    Welcome to my site where I share what I'm learning about shipping great products, becoming a
+    better developer and growing a career in tech.
+  </p>
   <!--   <div class="mt-6 flex gap-6">
       <SocialLink
         href="https://twitter.com"
@@ -27,4 +28,4 @@ Fullstack developer 👋 </h1>
         icon={LinkedInIcon}
       />
     </div> -->
-  </div>
+</div>
