@@ -7,7 +7,7 @@
 </script>
 
 <div class="mt-36 pb-36 text-base container-main">
-  <div class="text-gray-500">
+  <div class="text-gray-300">
     <div class="flex flex-col justify-between font-medium lg:flex-row">
       <div class="flex gap-5 flex-wrap">
         <a href="/videos" class={cn(LINK_SUBTLE_STYLES, FOCUS_VISIBLE_OUTLINE)}>Videos</a>
@@ -27,7 +27,7 @@
       </div>
     </div>
   </div>
-  <p class="mt-8 text-gray-600">
+  <p class="mt-8 text-neutral-200">
     Built with
     <a
       href="https://kit.svelte.dev?ref=chandresh.dev"
